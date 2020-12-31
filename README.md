@@ -20,11 +20,13 @@ I began the analysis by looking at data from other kickstarter campaigns. The da
      - A problem arose when I copied the COUNTIF() function from my initial cell to the other cells in the my Outcomes vs Goals table. It changed the column and row numbers            in the formula when I wanted them to stay constant. (Relative cell reference) I fixed this by adding dollar signs in front of the cell indexes. For example, if I                wanted the cell D14 to remain constant in my formula, I would replace it with $D$14. (Absolute cell reference) If I wanted the column D to remain constant while the rows        updated, I would add $D14 in my formula.
 
 ## Results
-**Outcomes Based on Launch Dates**
-1. The greatest number of successful projects were launched in the months of May and June. 
-2. The number of failed projects remains fairly constant throughout the year. This means that other factors are responsible for their failure.
 
-**Outcomes Based on Goals**
+We can draw the following conclusions from looking at the graphs:
+**Outcomes Based on Launch Dates graph**
+1. The greatest number of successful projects were launched in the months of May and June. 
+2. The number of failed projects remained fairly constant throughout the year. This means that other factors were responsible for their failure.
+
+**Outcomes Based on Goals graph**
 1. Campaigns which were less than $1000 were the most successful followed by campaigns that were between $45000 and $50000.
 
 **Limitations of the dataset**
@@ -32,5 +34,6 @@ I began the analysis by looking at data from other kickstarter campaigns. The da
 2. The genre of the plays are not included. This could be a factor to the plays' success since some genres are more popular than others.
 
 **Other possible tables/graphs**
+Here are some graphs that could be insightful:
 1. The relationship between "spotlight" or "staff_pick" and outcome.
 2. The relationship between the amount of time a campaign is live and its outcome.
